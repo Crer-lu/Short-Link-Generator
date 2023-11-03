@@ -1,0 +1,74 @@
+
+.arrowbase{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.arrow {
+    width: 8vw;
+    height: 3vw;
+    /* width: 90px;
+    height: 50px; */
+    background-color: #3498db; /* 按钮背景色 */
+    color: white; /* 文本颜色 */
+    border: none; /* 去除边框 */
+    padding: 10px 20px; /* 内边距 */
+    font-size: 16px; /* 字体大小 */
+    cursor: pointer; /* 鼠标指针样式 */
+    margin-bottom: 5px; /* 外边距 */
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 20px;
+    border-radius: 5px; /* 圆角边框 */
+  }
+  
+  .arrow:hover {
+    background-color: #2980b9; /* 鼠标悬停时的背景色 */
+  }
+  
+  .pagetext{
+    font-size: large;
+    color: #2980b9;
+  }
+
+  .quit-btn{
+    text-align: center;
+    background-image: linear-gradient(to left,#a6c1ee,#dfd699);
+    /* color: #000; */
+    border-radius: 5px;
+    /* border-color:#a6c1ee; */
+    border-color: aliceblue;
+    width: 80px;
+}
+
+
+.info-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+}
+
+.info {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.label {
+  color: #007bff; /* 设置标签颜色为蓝色 */
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.value {
+  font-weight: normal;
+  font-size: 20px;
+}
+
+.big{
+  margin-top: 200px; 
+}

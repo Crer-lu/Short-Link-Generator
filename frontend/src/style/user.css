@@ -1,0 +1,39 @@
+.arrowbase{
+    display: block;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 300px;
+}
+  
+.big{
+    margin-top: 200px; 
+}
+
+.quit-btn{
+    margin-top: 10px;
+    margin-left: 75px;
+}
+
+.submit-btn{
+    text-align: center;
+    background-image: linear-gradient(to left,#a6c1ee,#dfd699);
+    /* color: #000; */
+    border-radius: 5px;
+    /* border-color:#a6c1ee; */
+    border-color: aliceblue;
+    width: 80px;
+    margin-top: 10px;
+    margin-left: 150px;
+}
+
+.pwd-btn{
+    text-align: center;
+    background-image: linear-gradient(to left,#a6c1ee,#dfd699);
+    /* color: #000; */
+    border-radius: 5px;
+    /* border-color:#a6c1ee; */
+    border-color: aliceblue;
+    width: 80px;
+    margin-top: 10px;
+    margin-left: 250px;
+}
